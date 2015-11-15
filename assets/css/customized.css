@@ -1,0 +1,28 @@
+ol {
+	list-style-type: decimal;
+}
+
+ol li {
+	list-style-type: decimal;
+}
+
+ul li {
+	list-style-type: disc;
+}
+
+ol ul, ul ul, ol ol {
+	dmargin-left: 20px;
+}
+
+ol li, ul li {
+	margin-left: 26px;
+	list-style-position: outside;
+}
+
+ol, ul {
+	margin-bottom: 1em;
+}
+
+article img:hover {
+	cursor: pointer;
+}

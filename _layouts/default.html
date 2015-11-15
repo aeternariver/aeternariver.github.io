@@ -8,6 +8,8 @@
   <title>{{ site.name }}{% if page.title %} - {{ page.title }}{% endif %}</title>
   <link rel="shortcut icon" href="{{ site.baseurl }}assets/images/favicon.ico">
   <link rel="stylesheet" href="{{ site.baseurl }}assets/css/style.css">
+  <link rel="stylesheet" href="{{ site.baseurl }}assets/css/customized.css">
+  <link rel="stylesheet" href="{{ site.baseurl}}assets/simplebox/css/simplebox.min.css">
   <link rel="alternate" type="application/rss+xml" title="My Blog" href="{{ site.baseurl }}feed.xml">
   <link rel="stylesheet" href="{{ site.baseurl }}assets/css/highlight.css">
 </head>
@@ -23,8 +25,15 @@
     {{ content }}
   </section>
 
-{% if false %}
   <script src="/assets/js/jquery.min.js"></script>
+  <script src="{{ site.baseurl }}assets/simplebox/js/simplebox.min.js"></script>
+  <script>
+  $(function () {
+    // This assumes that you have placed the cross.svg file inside /img in your project
+    $("article img").simplebox();
+  });
+  </script>
+{% if false %}
   <script src="{{ site.baseurl }}assets/js/main.js"></script>
   <script src="{{ site.baseurl }}assets/js/highlight.js"></script>
   <script>hljs.initHighlightingOnLoad();</script>
