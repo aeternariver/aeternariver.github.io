@@ -8,6 +8,6 @@ categories: 日志
 
 道路虽湿滑泥泞，但还是有趣占了上风。明朝融雪冷，早客倍加裳。
 
-![雪1](/assets/images/blog/2015-11-22-snow0.jpg)
+![雪](/assets/images/blog/2015-11-22-snow0.jpg)
 
-![雪2](/assets/images/blog/2015-11-22-snow1.jpg)
+![雪](/assets/images/blog/2015-11-22-snow1.jpg)
